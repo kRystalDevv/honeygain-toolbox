@@ -16,4 +16,4 @@ limitations under the License.
 
 Project: Honeygain Conversion Tool
 Contact: talha@63xky.com
-Repository: https://github.com/kRystalDevv/honeygain-conversion
+Repository: https://github.com/kRystalDevv/honeygain-toolbox
