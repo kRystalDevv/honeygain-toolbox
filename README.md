@@ -47,7 +47,7 @@ Linux:
 ./conversion_tool
 ```
 
-###Verbose Mode:
+### Verbose Mode:
 Enable verbose mode to get additional information about your operating system.
 Windows:
 ```bash
@@ -58,7 +58,7 @@ Linux:
 ./conversion_tool -v
 ```
    
-##Example: 
+## Example: 
 ```bash
 $ ./conversion_tool
 
