@@ -34,33 +34,33 @@ Welcome to the Honeygain Conversion Tool! This simple command-line tool allows y
 2. Compile the program using a C compiler.
 
    ```bash
-   gcc conversion_tool.c -o conversion_tool
+   gcc honeygain_conversion.c -o honeygain_conversion
    ```
 
 ### Run the Program:
 Windows:
 ```bash
-conversion_tool.exe
+honeygain_conversion.exe
 ```
 Linux:
 ```bash
-./conversion_tool
+./honeygain_conversion
 ```
 
 ### Verbose Mode:
 Enable verbose mode to get additional information about your operating system.
 Windows:
 ```bash
-conversion_tool.exe -v
+honeygain_conversion.exe -v
 ```
 Linux:
 ```bash
-./conversion_tool -v
+./honeygain_conversion -v
 ```
    
 ## Example: 
 ```bash
-$ ./conversion_tool
+$ ./honeygain_conversion
 
 ===================
 1. Use Megabytes
