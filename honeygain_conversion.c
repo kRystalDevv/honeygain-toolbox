@@ -4,7 +4,7 @@
 /*
  * Filename: honeygain_conversion.c
  * Author: Talha Nizamani
- * Copyright: © 2023 Talha Nizamani
+ * Copyright: Â© 2023 Talha Nizamani
  * License: Apache License, Version 2.0
  *
  * Created: November 20, 2023
@@ -188,12 +188,14 @@ void clearscreen() {
 }
 
 void pause() {
-	if(OS == 0) { //For Windows
-		system("pause");
-	}
-	if(OS == 1) { //For UNIX
-		system("sleep 1");
-	}
+        if(OS == 0) { //For Windows
+                system("pause");
+        }
+        if(OS == 1) { //For UNIX
+                printf("Press Enter to continue...");
+                while (getchar() != '\n');
+                getchar();
+        }
 }
 
 
