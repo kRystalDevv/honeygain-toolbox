@@ -50,6 +50,7 @@ Linux:
 
 ### Verbose Mode:
 Enable verbose mode to get additional information about your operating system.
+   
 Windows:
 ```bash
 honeygain_conversion.exe -v
